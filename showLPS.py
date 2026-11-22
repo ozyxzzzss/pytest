@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.optimize import curve_fit
 
+#this is a new comment
+
 # 1. Exact X-axis concentrations (uM) for Ra-LPS
 # Reaction volume = 500 uL (0.0005 L), MW = 4145 Da
 vol_L = 0.0005
