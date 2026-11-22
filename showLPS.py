@@ -31,7 +31,7 @@ ax.plot(
     binding_curve(ra_x_smooth, *popt_ra),
     color="black",
     linewidth=1.5,
-    label=f"Fit ($K_d \\approx {popt_ra[1]:.1f}\\ \\mu$M)"
+    label="Fit (Kd approx {:.1f} uM)".format(popt_ra[1]),
 )
 
 ax.set_title("Ra-LPS Binding to dLptE-His (Fig. 6B)", fontsize=11, fontweight="bold")
