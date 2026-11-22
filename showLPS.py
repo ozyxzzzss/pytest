@@ -9,3 +9,15 @@ re_uM = [round((ug * 1e-6 / mw_re) / vol_L * 1e6, 2) for ug in re_ug]
 
 print("Ra-LPS uM:", ra_uM)
 print("Re-LPS uM:", re_uM)
+
+import matplotlib.pyplot as plt
+
+plt.plot(ra_uM, ra_ug, marker="o", label="Ra-LPS")
+plt.plot(re_uM, re_ug, marker="o", label="Re-LPS")
+plt.xlabel("Concentration (µM)")
+plt.ylabel("Amount (µg)")
+plt.title("Ra-LPS and Re-LPS Concentration Series")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
