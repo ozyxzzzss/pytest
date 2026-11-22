@@ -1,0 +1,2 @@
+# pytest
+Salary calculator example
