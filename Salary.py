@@ -6,7 +6,7 @@ def get_salary(job, rank):
             return 3500
         else:
             return 4000
-    elif job == "teacher":
+    elif job == teacher:
         return 4800
     elif job == "nurse":
         return 2500
