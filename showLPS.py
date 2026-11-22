@@ -1,6 +1,6 @@
 ra_ug = [0, 2.25, 4.5, 9, 22.5, 45, 90, 180]
 re_ug = [0, 2.5, 5.0, 10, 25, 50, 100, 200]
-vol_L = 500e-6 # 500 uL
+vol_L = 500e-6  # 500 uL
 mw_ra = 4145
 mw_re = 2237
 
@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 
 plt.plot(ra_uM, ra_ug, marker="o", label="Ra-LPS")
 plt.plot(re_uM, re_ug, marker="o", label="Re-LPS")
-plt.xlabel("Concentration (µM)")
-plt.ylabel("Amount (µg)")
+plt.xlabel("Concentration (uM)")
+plt.ylabel("Amount (ug)")
 plt.title("Ra-LPS and Re-LPS Concentration Series")
 plt.legend()
 plt.grid(True)
